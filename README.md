@@ -21,10 +21,10 @@ Here's my solution to the Frontend Mentor's - QR code component challenge.
 
 ### Screenshot
 
-Desktop Version
+**Desktop Version**<br>
 ![](screenshots/desktop.jpg)
 
-Mobile Version
+**Mobile Version**<br>
 ![](screenshots/mobile.jpg)
 
 
