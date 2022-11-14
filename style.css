@@ -1,0 +1,90 @@
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    position: fixed;
+    bottom: 5px;
+    right: 0;
+    left: 0;
+    font-family: Outfit;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(fonts/Outfit-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(fonts/Outfit-Bold.ttf);
+    font-weight: 700;
+}
+
+body {
+    margin: 0;
+    background-color: hsl(212, 45%, 89%);
+}
+
+main {
+    padding: 50px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#card {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 0 50px #00000022;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: white;
+}
+
+#card img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+#card p {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Outfit;
+}
+
+#card p:nth-child(2){
+    font-weight: 700;
+    font-size: 22px;
+    color: hsl(218, 44%, 22%);
+}
+
+#card p:nth-child(3) {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+
+@media (min-width: 1440px) {
+    body {
+        background-color:antiquewhite;
+    }
+    main {
+        width: 1220px;
+        height: 600px;
+        padding-top: 100px;
+        margin-top: 40px;
+        padding-bottom: 50px;
+        background-color: hsl(212, 45%, 89%);
+        box-shadow: 0 15px 20px 5px #00000022;
+    }
+}
