@@ -30,7 +30,7 @@ Here's my solution to the Frontend Mentor's - QR code component challenge.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/CharanMN7/QR-code-component](https://github.com/CharanMN7/QR-code-component)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
